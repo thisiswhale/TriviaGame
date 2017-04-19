@@ -1,0 +1,11 @@
+body{
+	margin: 5% 15% 10% 15%;
+}
+
+.container{
+	border-width: 2px solid  black;
+}
+
+.box{
+	text-align: center;
+}
