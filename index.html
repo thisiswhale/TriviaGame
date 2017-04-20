@@ -7,18 +7,22 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-
+<button class="btn btn-primary" id="start">Start</button>
+<!-- Start screen -->
+<div class="background"></div>
 <div class="container">
-	<div class="title box"><h1>Do you know your Coffee?</h1></div>
+	<div class="title-box"><h1>Do you know your Coffee?</h1></div>
+
+
 	<div class="box timer-box"> Time remaining: &nbsp; &nbsp;<span class="timer"></span></div>
 	<div class="box"><span class="trivia-question">trivia-question</span></div>
-	<div class="box"><span class="answer-choice A" id="0">answer-choice-A</span></div>
-	<div class="box"><span class="answer-choice B" id="1">answer-choice-B</span></div>
-	<div class="box"><span class="answer-choice C" id="2">answer-choice-C</span></div>
-	<div class="box"><span class="answer-choice D" id="3">answer-choice-D</span></div>
-	<div class="box"><span class="image" id="gif"></span></div>	
-	<div class="box"><span class="right-wrong">e</span></div>
-	<div class="box"><span class="result">f</span></div>
+	<div class="box choice-box"><span class="answer-choice A" id="0">answer-choice-A</span></div>
+	<div class="box choice-box"><span class="answer-choice B" id="1">answer-choice-B</span></div>
+	<div class="box choice-box"><span class="answer-choice C" id="2">answer-choice-C</span></div>
+	<div class="box choice-box"><span class="answer-choice D" id="3">answer-choice-D</span></div>
+	<div class="box image-box"><span class="image"></span></div>	
+	<div class="box right-wrong-box"><span class="right-wrong"></span></div>
+	<div class="end-box"><span class="result"></span></div>
 
 </div>
 
@@ -26,11 +30,4 @@
 </body>
 </html>
 <!-- 
-* If the player selects the correct answer, show a screen congratulating them for choosing the right option. After a few seconds, display the next question  do this without user input.
-
-* The scenario is similar for wrong answers and time-outs.
-
-  * If the player runs out of time, tell the player that time's up and display the correct answer. Wait a few seconds, then show the next question.
-  * If the player chooses the wrong answer, tell the player they selected the wrong option and then display the correct answer. Wait a few seconds, then show the next question.
-
 * On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page). -->
