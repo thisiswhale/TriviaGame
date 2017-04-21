@@ -161,7 +161,7 @@ function newGame() {
     missed = 0;
     $(".result").html("");
     $(".box").show();
-    index = 5;
+    index = 0;
     newTrivia();
     run();
 }
