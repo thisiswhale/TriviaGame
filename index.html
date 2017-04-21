@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Trivia Game</title>
-	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
-<!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <title>Trivia Game</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <!--     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:900i" rel="stylesheet">
 </head>
+
 <body>
-<button class="btn btn-primary" id="start">Start</button>
-<!-- Start screen -->
-<div class="background"></div>
-<div class="container">
-	<div class="title-box"><h1>Do you know your Coffee?</h1></div>
-
-
-	<div class="box timer-box"> Time remaining: &nbsp; &nbsp;<span class="timer"></span></div>
-	<div class="box"><span class="trivia-question">trivia-question</span></div>
-	<div class="box choice-box"><span class="answer-choice A" id="0">answer-choice-A</span></div>
-	<div class="box choice-box"><span class="answer-choice B" id="1">answer-choice-B</span></div>
-	<div class="box choice-box"><span class="answer-choice C" id="2">answer-choice-C</span></div>
-	<div class="box choice-box"><span class="answer-choice D" id="3">answer-choice-D</span></div>
-	<div class="box image-box"><span class="image"></span></div>	
-	<div class="box right-wrong-box"><span class="right-wrong"></span></div>
-	<div class="end-box"><span class="result"></span></div>
-
-</div>
-
-<script src="assets/javascript/game.js" type="text/javascript"></script>
+    <button class="btn btn-primary" id="start"><strong>Start</strong></button>
+    <!-- Start screen -->
+    <div class="background"></div>
+    <div class="container">
+        <div class="title-box">
+            <h1>CoFFee COffEe CofFEe QUIZ?</h1></div>
+        <div class="box timer-box"> Time remaining: &nbsp; &nbsp;<span class="timer"></span></div>
+        <br>
+        <div class="box"><span class="trivia-question">trivia-question</span></div>
+        <br>
+        <!-- right/wrong box here -->
+        <div class="box right-wrong-box"><span class="right-wrong"></span></div>
+        <!-- choice A -->
+        <div class="box choice-box"><span class="answer-choice A" id="0">answer-choice-A</span></div>
+        <br>
+        <!-- Image box here -->
+        <div class="box image-box"><span class="image"></span></div>
+        <!-- choice B -->
+        <div class="box choice-box"><span class="answer-choice B" id="1">answer-choice-B</span></div>
+        <br>
+        <!-- choice C -->
+        <div class="box choice-box"><span class="answer-choice C" id="2">answer-choice-C</span></div>
+        <br>
+        <!-- Choice D -->
+        <div class="box choice-box"><span class="answer-choice D" id="3">answer-choice-D</span></div>
+        <br>
+        <!-- Result box -->
+        <div class="end-box"><span class="result"></span></div>
+    </div>
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
 </body>
+
 </html>
-<!-- 
-* On the final screen, show the number of correct answers, incorrect answers, and an option to restart the game (without reloading the page). -->
