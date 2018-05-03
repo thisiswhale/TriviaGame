@@ -1,14 +1,14 @@
 # TriviaGame
 
-Simple Table rendering using FreeCodeCamp's API. Able to click *Past 30 Days* and *All Time* to sort highest points.
+A trivia game about coffee. Do you know what you drink?
 
-[Demo](https://thisiswhale.github.io/TriviaGame/)
+[Play here](https://thisiswhale.github.io/TriviaGame/)
 
-<p align="center"><img width="700" height="450" src="https://user-images.githubusercontent.com/16066443/36780816-ecf63fcc-1c28-11e8-9b73-3bb9a47330cf.gif"></p>
+<p align="center"><img width="700" height="450" src="https://user-images.githubusercontent.com/16066443/39556137-f0bb352c-4e32-11e8-9969-3e2970937cc0.JPG"></p>
 
 #### Built with
+  - HTML
+  - CSS
+  - Bootstrap
   - JavaScript
-  - SASS/SCSS
-  - React.js with ES6
-  - Webpack - Babel
-  - Node.js
+  - jQuery
