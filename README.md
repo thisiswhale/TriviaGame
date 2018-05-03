@@ -9,6 +9,5 @@ A trivia game about coffee. Do you know what you drink?
 #### Built with
   - HTML
   - CSS
-  - Bootstrap
   - JavaScript
   - jQuery
