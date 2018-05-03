@@ -32,6 +32,10 @@ body{
 
 }
 
+.choice-box:hover{
+	color: cornflowerblue;
+}
+
 .end-box{
 	font-size: 30px
 }

@@ -7,7 +7,7 @@ var index;
 var imageTime = 4;
 var remainingTime = 12;
 
-//number counter 
+//number counter
 var timeStart;
 $(".timer").html(timeStart)
 
@@ -25,12 +25,12 @@ function stop() {
 function countdown() {
     timeStart--;
     $(".timer").html(timeStart);
-    console.log(timeStart);
+    // console.log(timeStart);
     if (timeStart === 0) {
         stop();
         $(".right-wrong").html("Times Up!! <strong>Correct answer is " + trivia[index].answer + ".</strong>");
         missed++;
-        console.log("Times up!");
+        // console.log("Times up!");
         $(".timer").html(timeStart);
         showImage();
     }
@@ -125,7 +125,7 @@ var trivia = [{
 $(".background").html("<img src='assets/images/game-coffee.gif'>");
 $(".container").hide();
 
-//Start button reveals question and M/C texts 
+//Start button reveals question and M/C texts
 $("#start").on('click', function() {
     $(".container").show();
     $(".background").hide();
@@ -139,11 +139,11 @@ window.onload = function() {
     $(".answer-choice").on("click", function() {
         console.log(index);
         if (trivia[index].choice[this.getAttribute("id")] === trivia[index].answer) {
-            console.log("you are correct");
+            // console.log("you are correct");
             rightAnswers++;
-            $(".right-wrong").html("You are correct!!");            
+            $(".right-wrong").html("You are correct!!");
         } else {
-            console.log("you are wrong!");
+            // console.log("you are wrong!");
             wrongAnswers++;
             $(".right-wrong").html("You are wrong!! <strong>Correct answer is " + trivia[index].answer + ".</strong>");
         }
@@ -189,7 +189,7 @@ function nextTrivia() {
         console.log("No more questions");
         stop();
         endGame();
-    } 
+    }
     //else restarts timer
     else {
         timeStart = remainingTime;
@@ -219,6 +219,3 @@ function endGame() {
     $("#start").show();
     $(".box").hide();
 }
-
-
-
