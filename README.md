@@ -1,4 +1,4 @@
-# TriviaGame
+# Coffee Trivia
 
 A trivia game about coffee. Do you know what you drink?
 
